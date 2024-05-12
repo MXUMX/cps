@@ -12,6 +12,11 @@
     cursor: pointer;
 }
 
+/* Disable context menu on right-click */
+#clickArea {
+    pointer-events: none;
+}
+
 #timer, #cps {
     margin-bottom: 20px;
 }
